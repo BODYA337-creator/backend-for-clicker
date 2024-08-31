@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const url = "mongodb+srv://bhhuuu18:Bodya337@cluster0.mu4q4fx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const url = "mongodb+srv://bhhuuu18:Bodya337$@cluster0.mu4q4fx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const dbName = "homka_db";
 const collectionName = "homka's"
 
