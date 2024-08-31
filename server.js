@@ -4,7 +4,7 @@ const url = "mongodb+srv://bhhuuu18:Bodya337@cluster0.mu4q4fx.mongodb.net/?retry
 const dbName = "homka_db";
 const collectionName = "homka's"
 
-const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
+const client = new MongoClient(url, { ssl: true });
 
 const cors = require('cors');
 const express = require('express');
