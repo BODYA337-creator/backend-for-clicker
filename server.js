@@ -56,7 +56,7 @@ async function saveScore(username, score) {
         }
 }
 
-app.post('/saveScore', async (req, res) => {
+app.get('/saveScore', async (req, res) => {
     const { username, score } = req.body;
     try {
         console.log('Username: ', username);
