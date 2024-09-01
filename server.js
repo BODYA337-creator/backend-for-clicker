@@ -49,7 +49,7 @@ async function saveScore(username, score) {
         })
 
         if(el) {
-            await collection.updateOne({ username, score });
+            await collection.updateOne({ username }, { $set: { score } });
         } else {
             await collection.insertOne({ username, score })
         }
